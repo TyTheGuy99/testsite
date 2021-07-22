@@ -1,0 +1,63 @@
+<!DOCTYPE html> 
+<html> 
+<style> 
+.head-style {
+ background-color: #FF5733; 
+width: 100%; 
+color: #C70039; 
+position: fixed; 
+overflow: hidden; 
+}
+ .navbuttons { 
+list-style-type: none; 
+margin: 0px;
+ padding: 0px 0px 0px 0px; 
+overflow: hidden;
+ } 
+li a {
+ display: block; 
+color: #900C3F; 
+padding: 8px 16px; 
+text-decoration: none;
+ text-align: center; 
+display: inline;
+ float: left; 
+} 
+.page-title { 
+display: block; 
+color: #DAF7A6;
+ padding: 8px 16px 0px 50px;
+ text-decoration: none;
+ text-align: center;
+ display: inline; 
+float: left;
+ font-family: monospace; 
+text-transform: uppercase;
+ } 
+ul a:hover { 
+background-color: #581845;
+ color: white; 
+text-decoration: none; 
+} 
+.active { 
+background-color: #FFC300; 
+color: white; 
+} 
+body { 
+background-color: #DAF7A6; 
+color: black;
+ } 
+</style> 
+<header class="head-style">
+ <title>test site</title>
+ <h1 id="navbar"> 
+<ul class="navbuttons"> 
+<li class="active"><a href="home.html">Home</a></li> <li><a href="about.html">About</a></li>
+ <li><a href="contact.html">Contact</a></li> 
+<li class="page-title">Site Logo</li> </ul>
+ </h1> 
+</head> 
+<body>
+ <h2> This is a test site. </h2> 
+</body> 
+</html>
